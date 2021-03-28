@@ -1,0 +1,511 @@
+/* line 1, ../sass/default.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/default.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 10, ../sass/default.scss */
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: Nephrite-Book;
+  src: url("font/Nephrite Book.otf");
+}
+
+@font-face {
+  font-family: Nephrite-Italic;
+  src: url("font/Nephrite Italic.otf");
+}
+
+@font-face {
+  font-family: Nephrite-Bold;
+  src: url("font/Nephrite Bold.otf");
+}
+
+@font-face {
+  font-family: Silent-Regular;
+  src: url("font/silent_broadcast.ttf");
+}
+
+@font-face {
+  font-family: Volvo-Regular;
+  src: url("font/VolvoBroad.ttf");
+}
+
+@font-face {
+  font-family: Roboto Light;
+  src: url("font/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto Italic;
+  src: url("font/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: Roboto Bold;
+  src: url("font/Roboto-Bold.ttf");
+}
+
+/* line 4, ../sass/header.scss */
+header {
+  width: 100%;
+  background: url(images/header.png) no-repeat;
+  padding: 23px 0 23px 0;
+  position: fixed;
+  z-index: 5;
+  border-bottom: #c49a6c solid 10px;
+  display: none;
+}
+/* line 14, ../sass/header.scss */
+header article {
+  width: 1180px;
+  padding: 0 10px;
+  margin: auto;
+}
+/* line 19, ../sass/header.scss */
+header article div {
+  vertical-align: middle;
+  display: inline-block;
+}
+/* line 25, ../sass/header.scss */
+header article div ul li {
+  display: inline-block;
+}
+/* line 30, ../sass/header.scss */
+header article div:first-child {
+  width: 150px;
+  text-align: center;
+}
+/* line 35, ../sass/header.scss */
+header article div:nth-child(2) {
+  color: #c49a6c;
+  padding: 20px 0;
+  font-family: Nephrite-Book;
+  font-size: 28.38px;
+  text-transform: uppercase;
+  border-right: #c49a6c thin solid;
+}
+/* line 45, ../sass/header.scss */
+header article div:nth-child(2) li {
+  margin: 0 15px;
+}
+/* line 50, ../sass/header.scss */
+header article div:nth-child(3) {
+  padding: 0 20px;
+  color: #FFF;
+  width: 390px;
+}
+/* line 55, ../sass/header.scss */
+header article div:nth-child(3) p {
+  text-transform: uppercase;
+  font-family: Nephrite-Book;
+  font-size: 25.76px;
+  margin-bottom: 5px;
+}
+/* line 67, ../sass/header.scss */
+header article div:nth-child(3) form input {
+  color: #FFF;
+  height: 100%;
+  line-height: 1.2em;
+  padding: 6px 8px;
+  border: #FFF thin solid;
+  background: transparent;
+  border-radius: 5px;
+  font-family: Nephrite-Italic;
+  font-size: 20px;
+}
+/* line 80, ../sass/header.scss */
+header article div:nth-child(3) form input[type='submit'] {
+  text-align: center;
+  color: #792e2e;
+  /*line-height: 1.2em;*/
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: #c49a6c;
+  font-family: Nephrite-Bold;
+  font-size: 20px;
+}
+/* line 97, ../sass/header.scss */
+header article div:last-child li {
+  margin: 0 1px;
+}
+
+/* line 4, ../sass/content.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 8, ../sass/content.scss */
+section {
+  max-width: 1920px;
+}
+/* line 11, ../sass/content.scss */
+section article {
+  min-width: 1200px;
+  width: 76%;
+  margin: auto;
+}
+
+/* line 18, ../sass/content.scss */
+#section_um {
+  height: 100vh;
+}
+/* line 21, ../sass/content.scss */
+#section_um div {
+  width: 100%;
+  height: 100%;
+}
+/* line 25, ../sass/content.scss */
+#section_um div > img {
+  width: 100%;
+  height: 100%;
+}
+/* line 30, ../sass/content.scss */
+#section_um div:first-child {
+  position: absolute;
+}
+
+/*BIO*/
+/* line 38, ../sass/content.scss */
+#section_dois {
+  background-image: url(images/sec_dois.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 45, ../sass/content.scss */
+#section_dois article {
+  position: relative;
+}
+/* line 48, ../sass/content.scss */
+#section_dois article div {
+  display: inline;
+  margin-top: 5%;
+  width: 50%;
+}
+/* line 54, ../sass/content.scss */
+#section_dois article div:first-child {
+  background: #FCA;
+}
+/* line 58, ../sass/content.scss */
+#section_dois article div:last-child {
+  background: #AAA;
+}
+/* line 63, ../sass/content.scss */
+#section_dois article > img {
+  position: absolute;
+}
+
+/*Cardápio*/
+/* line 70, ../sass/content.scss */
+#section_tres {
+  background-image: url(../style/images/bg-cardapio.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/* line 77, ../sass/content.scss */
+#section_tres article {
+  color: #FFF;
+  padding: 5% 0;
+}
+/* line 81, ../sass/content.scss */
+#section_tres article div {
+  margin-left: 40%;
+  width: 70%;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+/* line 92, ../sass/content.scss */
+#section_tres article div:nth-child(2) {
+  /*margin-left: 5%;*/
+}
+/* line 96, ../sass/content.scss */
+#section_tres article div:last-child {
+  /*margin-left: -3%;*/
+}
+/* line 101, ../sass/content.scss */
+#section_tres article div h1 {
+  font-family: Silent-Regular;
+}
+/* line 107, ../sass/content.scss */
+#section_tres article div ul {
+  margin-top: -50px;
+  width: 48%;
+  padding-left: 1%;
+  padding-top: 3%;
+  margin-left: 0.5%;
+  border-left: #FFF solid thin;
+}
+/* line 118, ../sass/content.scss */
+#section_tres article div ul li {
+  position: relative;
+  font-family: Roboto Italic;
+  padding-left: 10%;
+  margin-bottom: 5px;
+  background-image: url(../style/images/bullet.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+/* line 170, ../sass/content.scss */
+#section_tres article div ul li h2 {
+  color: #c49a6c;
+  text-transform: uppercase;
+  font-family: Roboto Bold;
+  font-size: 1.2em;
+}
+/* line 183, ../sass/content.scss */
+#section_tres #pasta {
+  width: 60%;
+  /*background: #CCC;*/
+  padding-left: 2%;
+}
+/* line 187, ../sass/content.scss */
+#section_tres #pasta h1 {
+  font-size: 6em;
+}
+/* line 192, ../sass/content.scss */
+#section_tres #pasta ul {
+  padding-top: 5%;
+  display: none;
+}
+/* line 198, ../sass/content.scss */
+#section_tres #burger {
+  width: 60%;
+  padding-left: 5%;
+}
+/* line 201, ../sass/content.scss */
+#section_tres #burger h1 {
+  font-size: 10em;
+}
+/* line 207, ../sass/content.scss */
+#section_tres #burger ul {
+  display: none;
+}
+/* line 212, ../sass/content.scss */
+#section_tres #grill {
+  margin-left: 35%;
+  margin-top: -1%;
+}
+/* line 215, ../sass/content.scss */
+#section_tres #grill h1 {
+  font-size: 8em;
+}
+/* line 221, ../sass/content.scss */
+#section_tres #grill > ul {
+  /*display: inline-table;*/
+  display: none;
+}
+/* line 227, ../sass/content.scss */
+#section_tres #grill > ul:last-child {
+  border-left: none;
+  padding-top: none;
+}
+
+/*PARCEIROS*/
+/* line 237, ../sass/content.scss */
+#section_quatro {
+  height: 680px;
+  /*height: 100vh;*/
+  background-image: url(../style/images/bg-parc.jpg);
+  background-repeat: no-repeat;
+  background-position: center 75%;
+  background-size: cover;
+}
+/* line 247, ../sass/content.scss */
+#section_quatro article {
+  vertical-align: central;
+  width: 960px;
+}
+/* line 251, ../sass/content.scss */
+#section_quatro article div {
+  width: 30%;
+  display: inline-table;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+/* line 261, ../sass/content.scss */
+#section_quatro article div h1 {
+  -ms-transform: rotate(-15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-15deg);
+  /* Safari */
+  transform: rotate(-15deg);
+  color: #FFF;
+  vertical-align: text-bottom;
+  line-height: 235px;
+  background-image: url(../style/images/alert.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Silent-Regular;
+  font-size: 3.5em;
+}
+/* line 283, ../sass/content.scss */
+#section_quatro article div p {
+  color: #FFF;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  font-family: Volvo-Regular;
+  font-size: 3em;
+}
+/* line 294, ../sass/content.scss */
+#section_quatro article div p span {
+  color: #c49a6c;
+}
+/* line 299, ../sass/content.scss */
+#section_quatro article div form {
+  margin-top: 10px;
+}
+/* line 302, ../sass/content.scss */
+#section_quatro article div form input[type='tel'], #section_quatro article div form input[type='email'] {
+  width: 80%;
+  padding: 0px 10px;
+  line-height: 2.5em;
+  font-family: Roboto Light;
+  font-size: 1.2em;
+}
+/* line 312, ../sass/content.scss */
+#section_quatro article div form input[type='submit'] {
+  padding: 0px 10px;
+  height: 2.5em;
+  background: #c49a6c;
+  border: none;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: Roboto Bold;
+  font-size: 1.2em;
+}
+/* line 328, ../sass/content.scss */
+#section_quatro article div form input[type='submit']:hover {
+  color: #FFF;
+}
+/* line 334, ../sass/content.scss */
+#section_quatro article div:first-child {
+  float: left;
+}
+
+/*CONTATO*/
+/* line 345, ../sass/content.scss */
+#section_cinco {
+  height: 640px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  background-image: url(../style/images/bg-contato.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: Roboto Light;
+}
+/* line 360, ../sass/content.scss */
+#section_cinco div {
+  width: 50%;
+  display: inline-block;
+}
+/* line 364, ../sass/content.scss */
+#section_cinco div:first-child {
+  position: relative;
+  float: left;
+  background-image: url(../style/images/bg-info.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/* line 373, ../sass/content.scss */
+#section_cinco div:first-child ul {
+  width: 400px;
+  height: 640px;
+  /*                position: absolute;
+                  right: 0;*/
+  float: right;
+}
+/* line 381, ../sass/content.scss */
+#section_cinco div:first-child ul li {
+  padding: 13.6% 0 13.5% 0;
+  color: #FFF;
+  /*text-align: center;*/
+}
+/* line 387, ../sass/content.scss */
+#section_cinco div:first-child ul li:first-child {
+  background: rgba(0, 0, 0, 0);
+}
+/* line 391, ../sass/content.scss */
+#section_cinco div:first-child ul li:nth-child(2) {
+  background: rgba(0, 0, 0, 0);
+}
+/* line 395, ../sass/content.scss */
+#section_cinco div:first-child ul li:last-child {
+  background: rgba(0, 0, 0, 0);
+}
+/* line 399, ../sass/content.scss */
+#section_cinco div:first-child ul li h1 {
+  margin-bottom: 10px;
+  background-image: url(../style/images/borda.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto Bold;
+}
+/* line 418, ../sass/content.scss */
+#section_cinco div:first-child ul li p {
+  margin-left: 70px;
+  padding-left: 50px;
+}
+/* line 424, ../sass/content.scss */
+#section_cinco div:first-child ul li #cont {
+  background-image: url(../style/images/contato.png);
+  background-repeat: no-repeat;
+  line-height: 2em;
+}
+/* line 432, ../sass/content.scss */
+#section_cinco div:first-child ul li #tel {
+  background-image: url(../style/images/cel.png);
+  background-repeat: no-repeat;
+  line-height: 3em;
+  padding-left: 65px;
+  margin-left: 80px;
+}
+/* line 442, ../sass/content.scss */
+#section_cinco div:first-child ul li #end {
+  background-image: url(../style/images/position.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 3em;
+  padding-left: 60px;
+  padding-top: 7px;
+  margin-left: 70px;
+}
+/* line 457, ../sass/content.scss */
+#section_cinco div:nth-child(2) {
+  height: 100%;
+  background: #AAA;
+}
+/* line 460, ../sass/content.scss */
+#section_cinco div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/footer.scss */
+footer {
+  /*height: 170px;*/
+  text-align: center;
+  background-image: url(../style/images/bg-footer.jpg);
+  background-repeat: no-repeat;
+}
+/* line 9, ../sass/footer.scss */
+footer img {
+  margin: 20px;
+}

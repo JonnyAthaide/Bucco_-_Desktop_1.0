@@ -1,0 +1,358 @@
+/* line 4, ../sass/body.scss */
+body {
+  overflow-x: hidden;
+}
+
+/* line 8, ../sass/body.scss */
+section {
+  max-width: 1920px;
+}
+/* line 11, ../sass/body.scss */
+section article {
+  min-width: 1200px;
+  width: 76%;
+  margin: auto;
+}
+
+/* line 18, ../sass/body.scss */
+#section_um {
+  height: 100vh;
+}
+/* line 21, ../sass/body.scss */
+#section_um div {
+  width: 100%;
+  height: 100%;
+}
+/* line 25, ../sass/body.scss */
+#section_um div > img {
+  width: 100%;
+  height: 100%;
+}
+/* line 30, ../sass/body.scss */
+#section_um div:first-child {
+  position: absolute;
+}
+
+/*BIO*/
+/* line 38, ../sass/body.scss */
+#section_dois {
+  background-image: url(images/sec_dois.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* line 45, ../sass/body.scss */
+#section_dois article {
+  position: relative;
+}
+/* line 48, ../sass/body.scss */
+#section_dois article div {
+  display: inline;
+  margin-top: 5%;
+  width: 50%;
+}
+/* line 54, ../sass/body.scss */
+#section_dois article div:first-child {
+  background: #FCA;
+}
+/* line 58, ../sass/body.scss */
+#section_dois article div:last-child {
+  background: #AAA;
+}
+/* line 63, ../sass/body.scss */
+#section_dois article > img {
+  position: absolute;
+}
+
+/*Cardápio*/
+/* line 70, ../sass/body.scss */
+#section_tres {
+  background-image: url(../style/images/bg-cardapio.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+/* line 77, ../sass/body.scss */
+#section_tres article {
+  color: #FFF;
+  padding: 5% 0;
+}
+/* line 81, ../sass/body.scss */
+#section_tres article div {
+  margin-left: 40%;
+  width: 70%;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+/* line 92, ../sass/body.scss */
+#section_tres article div:nth-child(2) {
+  /*margin-left: 5%;*/
+}
+/* line 96, ../sass/body.scss */
+#section_tres article div:last-child {
+  /*margin-left: -3%;*/
+}
+/* line 101, ../sass/body.scss */
+#section_tres article div h1 {
+  font-family: Silent-Regular;
+}
+/* line 107, ../sass/body.scss */
+#section_tres article div ul {
+  margin-top: -50px;
+  width: 48%;
+  padding-left: 1%;
+  padding-top: 3%;
+  margin-left: 0.5%;
+  border-left: #FFF solid thin;
+}
+/* line 118, ../sass/body.scss */
+#section_tres article div ul li {
+  position: relative;
+  font-family: Roboto Italic;
+  padding-left: 10%;
+  margin-bottom: 5px;
+  background-image: url(../style/images/bullet.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+/* line 170, ../sass/body.scss */
+#section_tres article div ul li h2 {
+  color: #c49a6c;
+  text-transform: uppercase;
+  font-family: Roboto Bold;
+  font-size: 1.2em;
+}
+/* line 183, ../sass/body.scss */
+#section_tres #pasta {
+  width: 60%;
+  /*background: #CCC;*/
+  padding-left: 2%;
+}
+/* line 187, ../sass/body.scss */
+#section_tres #pasta h1 {
+  font-size: 6em;
+}
+/* line 192, ../sass/body.scss */
+#section_tres #pasta ul {
+  padding-top: 5%;
+  display: none;
+}
+/* line 198, ../sass/body.scss */
+#section_tres #burger {
+  width: 60%;
+  padding-left: 5%;
+}
+/* line 201, ../sass/body.scss */
+#section_tres #burger h1 {
+  font-size: 10em;
+}
+/* line 207, ../sass/body.scss */
+#section_tres #burger ul {
+  display: none;
+}
+/* line 212, ../sass/body.scss */
+#section_tres #grill {
+  margin-left: 35%;
+  margin-top: -1%;
+}
+/* line 215, ../sass/body.scss */
+#section_tres #grill h1 {
+  font-size: 8em;
+}
+/* line 221, ../sass/body.scss */
+#section_tres #grill > ul {
+  /*display: inline-table;*/
+  display: none;
+}
+/* line 227, ../sass/body.scss */
+#section_tres #grill > ul:last-child {
+  border-left: none;
+  padding-top: none;
+}
+
+/*PARCEIROS*/
+/* line 237, ../sass/body.scss */
+#section_quatro {
+  height: 680px;
+  /*height: 100vh;*/
+  background-image: url(../style/images/bg-parc.jpg);
+  background-repeat: no-repeat;
+  background-position: center 75%;
+  background-size: cover;
+}
+/* line 247, ../sass/body.scss */
+#section_quatro article {
+  vertical-align: central;
+  width: 960px;
+}
+/* line 251, ../sass/body.scss */
+#section_quatro article div {
+  width: 30%;
+  display: inline-table;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+/* line 261, ../sass/body.scss */
+#section_quatro article div h1 {
+  -ms-transform: rotate(-15deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-15deg);
+  /* Safari */
+  transform: rotate(-15deg);
+  color: #FFF;
+  vertical-align: text-bottom;
+  line-height: 235px;
+  background-image: url(../style/images/alert.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Silent-Regular;
+  font-size: 3.5em;
+}
+/* line 283, ../sass/body.scss */
+#section_quatro article div p {
+  color: #FFF;
+  line-height: 0.8em;
+  text-transform: uppercase;
+  font-family: Volvo-Regular;
+  font-size: 3em;
+}
+/* line 294, ../sass/body.scss */
+#section_quatro article div p span {
+  color: #c49a6c;
+}
+/* line 299, ../sass/body.scss */
+#section_quatro article div form {
+  margin-top: 10px;
+}
+/* line 302, ../sass/body.scss */
+#section_quatro article div form input[type='tel'], #section_quatro article div form input[type='email'] {
+  width: 80%;
+  padding: 0px 10px;
+  line-height: 2.5em;
+  font-family: Roboto Light;
+  font-size: 1.2em;
+}
+/* line 312, ../sass/body.scss */
+#section_quatro article div form input[type='submit'] {
+  padding: 0px 10px;
+  height: 2.5em;
+  background: #c49a6c;
+  border: none;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: Roboto Bold;
+  font-size: 1.2em;
+}
+/* line 328, ../sass/body.scss */
+#section_quatro article div form input[type='submit']:hover {
+  color: #FFF;
+}
+/* line 334, ../sass/body.scss */
+#section_quatro article div:first-child {
+  float: left;
+}
+
+/*CONTATO*/
+/* line 345, ../sass/body.scss */
+#section_cinco {
+  height: 640px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  background-image: url(../style/images/bg-contato.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: Roboto Light;
+}
+/* line 360, ../sass/body.scss */
+#section_cinco div {
+  width: 50%;
+  display: inline-block;
+}
+/* line 364, ../sass/body.scss */
+#section_cinco div:first-child {
+  position: relative;
+  float: left;
+  background-image: url(../style/images/bg-info.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/* line 373, ../sass/body.scss */
+#section_cinco div:first-child ul {
+  width: 400px;
+  height: 640px;
+  /*                position: absolute;
+                  right: 0;*/
+  float: right;
+}
+/* line 381, ../sass/body.scss */
+#section_cinco div:first-child ul li {
+  padding: 13.6% 0 13.5% 0;
+  color: #FFF;
+  /*text-align: center;*/
+}
+/* line 387, ../sass/body.scss */
+#section_cinco div:first-child ul li:first-child {
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 391, ../sass/body.scss */
+#section_cinco div:first-child ul li:nth-child(2) {
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 395, ../sass/body.scss */
+#section_cinco div:first-child ul li:last-child {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 399, ../sass/body.scss */
+#section_cinco div:first-child ul li h1 {
+  margin-bottom: 10px;
+  background-image: url(../style/images/borda.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Roboto Bold;
+}
+/* line 418, ../sass/body.scss */
+#section_cinco div:first-child ul li p {
+  margin-left: 70px;
+  padding-left: 50px;
+}
+/* line 424, ../sass/body.scss */
+#section_cinco div:first-child ul li #cont {
+  background-image: url(../style/images/contato.png);
+  background-repeat: no-repeat;
+  line-height: 2em;
+}
+/* line 432, ../sass/body.scss */
+#section_cinco div:first-child ul li #tel {
+  background-image: url(../style/images/cel.png);
+  background-repeat: no-repeat;
+  line-height: 3em;
+  padding-left: 65px;
+  margin-left: 80px;
+}
+/* line 442, ../sass/body.scss */
+#section_cinco div:first-child ul li #end {
+  background-image: url(../style/images/position.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 3em;
+  padding-left: 60px;
+  padding-top: 7px;
+  margin-left: 70px;
+}
+/* line 457, ../sass/body.scss */
+#section_cinco div:nth-child(2) {
+  height: 100%;
+  background: #AAA;
+}
+/* line 460, ../sass/body.scss */
+#section_cinco div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+}

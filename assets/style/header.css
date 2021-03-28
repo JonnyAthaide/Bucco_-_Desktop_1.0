@@ -1,0 +1,101 @@
+/* line 4, ../sass/header.scss */
+header {
+  width: 100%;
+  background: url(images/header.png) no-repeat;
+  padding: 23px 0 23px 0;
+  position: fixed;
+  z-index: 5;
+  border-bottom: #c49a6c solid 10px;
+}
+/* line 12, ../sass/header.scss */
+header article {
+  width: 1180px;
+  padding: 0 10px;
+  margin: auto;
+}
+/* line 17, ../sass/header.scss */
+header article div {
+  vertical-align: middle;
+  display: inline-block;
+  /*LOGO BUCCO*/
+  /*NAVEGADOR SITE*/
+  /*CADASTRO*/
+  /*MIDIAS SOCIAIS*/
+}
+/* line 23, ../sass/header.scss */
+header article div ul li {
+  display: inline-block;
+}
+/* line 29, ../sass/header.scss */
+header article div:first-child {
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+/* line 34, ../sass/header.scss */
+header article div:first-child img {
+  width: 100%;
+}
+/* line 40, ../sass/header.scss */
+header article div:nth-child(2) {
+  color: #c49a6c;
+  padding: 20px 0;
+  font-family: Nephrite-Book;
+  font-size: 28.38px;
+  text-transform: uppercase;
+  border-right: #c49a6c thin solid;
+}
+/* line 50, ../sass/header.scss */
+header article div:nth-child(2) li {
+  cursor: pointer;
+  margin: 0 15px;
+}
+/* line 54, ../sass/header.scss */
+header article div:nth-child(2) li:hover {
+  color: #FFF;
+}
+/* line 60, ../sass/header.scss */
+header article div:nth-child(3) {
+  padding: 0 20px;
+  color: #FFF;
+  width: 390px;
+}
+/* line 65, ../sass/header.scss */
+header article div:nth-child(3) p {
+  text-transform: uppercase;
+  font-family: Nephrite-Book;
+  font-size: 25.76px;
+  margin-bottom: 5px;
+}
+/* line 76, ../sass/header.scss */
+header article div:nth-child(3) form input {
+  color: #FFF;
+  height: 100%;
+  line-height: 1.2em;
+  padding: 6px 8px;
+  border: #FFF thin solid;
+  background: transparent;
+  border-radius: 5px;
+  font-family: Nephrite-Italic;
+  font-size: 20px;
+}
+/* line 89, ../sass/header.scss */
+header article div:nth-child(3) form input[type='submit'] {
+  cursor: pointer;
+  text-align: center;
+  color: #792e2e;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: #c49a6c;
+  font-family: Nephrite-Bold;
+  font-size: 20px;
+}
+/* line 102, ../sass/header.scss */
+header article div:nth-child(3) form input[type='submit']:hover {
+  background: #FFF;
+}
+/* line 110, ../sass/header.scss */
+header article div:last-child li {
+  margin: 0 1px;
+}

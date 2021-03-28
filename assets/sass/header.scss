@@ -1,0 +1,117 @@
+$dourado : rgba(196, 154, 108, 1);
+$marrom: rgba(121, 46, 46, 1);
+
+header{
+    width: 100%;
+    background: url(images/header.png) no-repeat ;
+    padding: 23px 0 23px 0;
+    position: fixed;
+    z-index: 5;
+    border-bottom: $dourado solid 10px;
+
+    article{
+        width: 1180px;
+        padding: 0 10px;
+        margin: auto;
+
+        div{
+            vertical-align: middle;
+            display: inline-block;
+
+
+            ul{
+                li{
+                    display: inline-block;
+                }                
+            }            
+
+            /*LOGO BUCCO*/
+            &:first-child{
+                cursor: pointer;
+                width: 100px;
+                text-align: center;
+
+                img{
+                    width: 100%;
+                }
+            }
+
+            /*NAVEGADOR SITE*/
+            &:nth-child(2){
+                color: $dourado;
+                padding: 20px 0;
+                font:{
+                    family: Nephrite-Book;
+                    size: 28.38px;
+                }                
+                text-transform: uppercase;
+                border-right: $dourado thin solid;
+
+                li{
+                    cursor: pointer;
+                    margin: 0 15px;
+
+                    &:hover{
+                        color: #FFF;
+                    }
+                }
+            }
+            /*CADASTRO*/
+            &:nth-child(3){
+                padding: 0 20px;
+                color: #FFF;
+                width: 390px;
+
+                p{
+                    text-transform: uppercase;
+                    font:{
+                        family: Nephrite-Book;
+                        size: 25.76px;
+                    }
+                    margin-bottom: 5px;
+                }
+
+                form{                    
+
+                    input{ 
+                        color: #FFF;
+                        height: 100%;
+                        line-height: 1.2em;
+                        padding: 6px 8px;
+                        border: #FFF thin solid;
+                        background: transparent;
+                        border-radius: 5px;
+                        font:{
+                            family: Nephrite-Italic;
+                            size: 20px;
+                        }
+                    }
+                    input[type='submit']{
+                        cursor: pointer;
+                        text-align: center;
+                        color: $marrom;
+                        width: 100%;
+                        border: none;
+                        border-radius: 5px;
+                        background: $dourado;
+                        font:{
+                            family: Nephrite-Bold;
+                            size: 20px;
+                        }
+
+                        &:hover{
+                            background: #FFF;
+                        }
+                    }
+                }
+            }
+            /*MIDIAS SOCIAIS*/
+            &:last-child{                
+                li{
+                    margin: 0 1px;
+                }
+
+            }
+        }
+    }
+}

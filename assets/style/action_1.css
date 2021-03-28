@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2016, 15:33:27
+    Author     : Mestica
+*/
+/* MOVIMENTO BT-SCROLL */
+/* line 13, ../sass/action_1.scss */
+#traco-scroll {
+  -webkit-animation: scrollMouseImg 1s infinite linear;
+  /* Chrome, Safari, Opera */
+  animation: scrollMouseImg 1s infinite linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes scrollMouseImg {
+  /* line 23, ../sass/action_1.scss */
+  0% {
+    top: 0px;
+    opacity: 1;
+  }
+
+  /* line 28, ../sass/action_1.scss */
+  100% {
+    top: 7%;
+    opacity: 0.1;
+  }
+}
+
+/* Standard syntax */
+@keyframes scrollMouseImg {
+  /* line 36, ../sass/action_1.scss */
+  0% {
+    top: 0px;
+    opacity: 1;
+  }
+
+  /* line 41, ../sass/action_1.scss */
+  100% {
+    top: 7%;
+    opacity: 0.1;
+  }
+}

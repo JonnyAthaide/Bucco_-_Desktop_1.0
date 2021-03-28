@@ -1,0 +1,89 @@
+/* MOVIMENTO BT-SCROLL */
+/* line 2, ../sass/action.scss */
+img[title='QUADRO'] {
+  -webkit-animation: moveLousa 5s infinite linear;
+  /* Chrome, Safari, Opera */
+  animation: moveLousa 5s infinite linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes moveLousa {
+  /* line 11, ../sass/action.scss */
+  0% {
+    transform: rotate(4deg);
+  }
+
+  /* line 12, ../sass/action.scss */
+  50% {
+    transform: rotate(-8deg);
+  }
+
+  /* line 13, ../sass/action.scss */
+  100% {
+    transform: rotate(4deg);
+  }
+}
+
+@keyframes moveLousa {
+  /* line 17, ../sass/action.scss */
+  0% {
+    transform: rotate(4deg);
+  }
+
+  /* line 18, ../sass/action.scss */
+  50% {
+    transform: rotate(-8deg);
+  }
+
+  /* line 19, ../sass/action.scss */
+  100% {
+    transform: rotate(4deg);
+  }
+}
+
+/*CLICK CARDÁPIO*/
+/* line 28, ../sass/action.scss */
+#card img:last-child {
+  -webkit-animation: clickCard 0.5s infinite linear;
+  /* Chrome, Safari, Opera */
+  animation: clickCard 0.5s infinite linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes clickCard {
+  /* line 37, ../sass/action.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 38, ../sass/action.scss */
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes clickCard {
+  /* line 42, ../sass/action.scss */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 43, ../sass/action.scss */
+  100% {
+    opacity: 0.1;
+  }
+}
+
+/*HEADER*/
+/* line 49, ../sass/action.scss */
+.header {
+  padding: 5px 0;
+  -webkit-transition: padding ease 1s;
+  transition: padding ease 1s;
+}
+/* line 58, ../sass/action.scss */
+.header > div:first-child img {
+  width: 90%;
+  -webkit-transition: padding ease 1s;
+  transition: padding ease 1s;
+}

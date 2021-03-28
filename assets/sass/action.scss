@@ -1,0 +1,65 @@
+/* MOVIMENTO BT-SCROLL */
+img[title='QUADRO'] {
+
+    -webkit-animation: moveLousa 5s infinite linear;
+    /* Chrome, Safari, Opera */
+    animation: moveLousa 5s infinite linear;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes moveLousa {
+    0% { transform: rotate(4deg); }
+    50% { transform: rotate(-8deg);  }
+    100% { transform: rotate(4deg);  }
+}
+
+@keyframes moveLousa {
+    0% { transform: rotate(4deg); }
+    50% { transform: rotate(-8deg);  }
+    100% { transform: rotate(4deg);  }
+}
+
+
+
+
+/*CLICK CARDÁPIO*/
+#card img{
+
+    &:last-child{
+        -webkit-animation: clickCard 0.5s infinite linear;
+        /* Chrome, Safari, Opera */
+        animation: clickCard 0.5s infinite linear;
+    }
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes clickCard {
+    0% { opacity: 1; }
+    100% { opacity: 0.1;  }
+}
+
+@keyframes clickCard {
+    0% { opacity: 1; }
+    100% { opacity: 0.1;  }
+}
+
+
+
+/*HEADER*/
+.header{
+    padding: 5px 0;
+    -webkit-transition: padding ease 1s ;
+    transition: padding ease 1s ;
+
+    >div{
+
+        &:first-child{
+
+            img{
+                width: 90%;
+                -webkit-transition: padding ease 1s ;
+                transition: padding ease 1s ;
+            }
+        }
+    }
+}

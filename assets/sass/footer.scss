@@ -1,0 +1,13 @@
+footer{
+    height: 170px;
+    text-align: center;
+    background:{
+        image: url(../style/images/bg-footer.jpg);
+        repeat: no-repeat;
+        size: cover;
+    }    
+    img{
+        margin-top: 40px;
+        cursor: pointer;
+    }
+}
